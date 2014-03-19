@@ -18,12 +18,12 @@ class ESpriteSpin extends CWidget
 	/**
 	 * @var array The array of options for spritespin
 	 */ 
-	public $options;
+	public $options = array();
 
 	/**
 	 * @var array The array of urls to image frames
 	 */
-	public $frames;
+	public $frames = array();
 
 	/**
 	 * Initialize widget
